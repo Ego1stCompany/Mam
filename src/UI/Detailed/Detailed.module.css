@@ -1,0 +1,12 @@
+.header__content_button {
+    cursor: pointer;
+    max-width: 170px;
+    width: 100%;
+    padding: 15px 30px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: uppercase;
+    background: rgb(189, 0, 7);
+}
