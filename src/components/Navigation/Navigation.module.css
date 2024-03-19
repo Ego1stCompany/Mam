@@ -1,0 +1,19 @@
+.navigation {
+    padding-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.navigation__item {
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.navigation__item:hover {
+    color: rgba(255, 255, 255, 0.7);
+    transition: 0.3s ease-in-out;
+}

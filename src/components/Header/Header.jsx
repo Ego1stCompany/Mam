@@ -5,6 +5,8 @@ import search from '../../assets/search.svg'
 import left from '../../assets/button-left.png'
 import right from '../../assets/button-right.png'
 import sheep from '../../assets/sheep.png'
+import Navigation from "../Navigation/Navigation.jsx";
+import Detailed from "../../UI/Detailed/Detailed.jsx";
 
 const Header = () => {
     return (
@@ -32,29 +34,9 @@ const Header = () => {
                         className={styles.search}
                     />
                 </div>
-                <nav className={styles.navigation}>
-                    <div className={styles.navigation__item}>
-                        о нас
-                    </div>
-                    <div className={styles.navigation__item}>
-                        флот
-                    </div>
-                    <div className={styles.navigation__item}>
-                        инвесторам
-                    </div>
-                    <div className={styles.navigation__item}>
-                        карьера
-                    </div>
-                    <div className={styles.navigation__item}>
-                        пресс-центр
-                    </div>
-                    <div className={styles.navigation__item}>
-                        устойчивое развитие
-                    </div>
-                    <div className={styles.navigation__item}>
-                        контакты
-                    </div>
-                </nav>
+
+                <Navigation/>
+
                 <div className={styles.header__content}>
                     <div className={styles.header__content_sea}>
                         <h1 className={styles.header__content_title}>
@@ -67,9 +49,7 @@ const Header = () => {
                             luctus eu gravida tincidunt cras. Quisque pellentesque mollis ut sed.
                         </p>
 
-                        <button className={styles.header__content_button}>
-                            подробнее
-                        </button>
+                        <Detailed/>
 
                         <div className={styles.header__contents_buttons}>
                             <button className={styles.header__button_slider}>
